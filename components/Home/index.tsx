@@ -1,13 +1,15 @@
 import { Fragment } from "react";
-import Navbar from "../headers/Navbar";
-import TopHeader from "../headers/TopHeader";
-import Footer from "../headers/Footer";
+import PartnersSection from "@/components/partners/index";
+import CaseStudiesSection from "../caseStudiesSection";
+import ProcessSteps from "../processSteps";
 
 const Home = () => {
   return (
     <Fragment>
-      <TopHeader/>
-      <Navbar/>
+
+      <PartnersSection/>
+      <CaseStudiesSection/>
+      <ProcessSteps/>
     </Fragment>
   );
 };
