@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F3F4F6;
+  --foreground: #171717;
+  --primary-bg: #f7f6f2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #F3F4F6;
+    --foreground: #ededed;
+    --dark-teal: #01747b;
+    --light-mint: #b5ced2;
+    --crystal: #eee9e6;
+    --bg-light: #eaedf2;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+
+}
+
+h1,h2,h3,h4,h5{
+  font-family:"Roboto", "Roboto Placeholder", sans-serif !important;
+}
+.bg-light{
+  /* background-color: #bdbdbd; */
+  background-color: #eaedf2;
+}
+.border-color{
+  border-color: var(--crystal);
+}
+.text-teal{
+  color: var(--dark-teal);
+}
+.bg-crystal{
+  background-color: var(--crystal);
+}
+.bg-mint{
+  background-color: var(--light-mint);
+}
+.bg-teal{
+  /* background-color: #ad6e63; */
+  background-color: #86af74;
+}
+.bg-info{
+  background-color: var(--dark-teal);
+}
