@@ -2,7 +2,7 @@ import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ['res.cloudinary.com'],
+    domains: ['res.cloudinary.com', 'img.freepik.com'],
   },
   reactStrictMode: true, // Recommended for better development practices
 
